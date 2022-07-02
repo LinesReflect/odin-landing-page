@@ -144,3 +144,31 @@ ul {
 }
 
 /* CHOICES */
+
+
+/* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 10px;
+}
+
+
+.quote-author {
+    text-align: right;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 10px;
+}
+
+/* QUOTE */
