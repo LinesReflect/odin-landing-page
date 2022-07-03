@@ -4,6 +4,9 @@ body {
 }
 
 /* HEADER */
+
+
+/* TOP */
 .top {
     background-color: #1f2937;
     color: #ffffff;
@@ -36,13 +39,24 @@ a, a:link, a:visited {
 }
 
 
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
 ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-/* HEADER */
+/* TOP */
 
 
 /* INTRO */
@@ -99,6 +113,8 @@ ul {
     width: 500px;
     height: auto;
 }
+
+/* INTRO */
 
 /* HEADER */
 
@@ -237,8 +253,12 @@ ul {
 
 .bottom-text {
     color: #f9faf8;
-    font-size: 24px;
     text-align: center;
+}
+
+
+.bottom-text a:hover {
+    text-decoration: underline;
 }
 
 /* BOTTOM */
